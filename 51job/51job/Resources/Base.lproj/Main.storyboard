@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="8er-qQ-LZz">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--Main View Controller-->
+        <scene sceneID="ZPS-In-r0v">
+            <objects>
+                <viewController id="ZkP-jw-kmf" customClass="MainViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="KTh-vo-gSh"/>
+                        <viewControllerLayoutGuide type="bottom" id="LLR-8G-2i4"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="hcF-HD-UHV">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ThB-Yf-mwl" userLabel="九宫格">
+                                <rect key="frame" x="16" y="64" width="568" height="536"/>
+                                <subviews>
+                                    <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1W4-qz-R2e" customClass="MainButton">
+                                        <rect key="frame" x="82" y="54" width="60" height="80"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <state key="normal" title="职位搜索" image="home_icon_jobsearch">
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="highlighted" image="home_icon_jobsearch_focus"/>
+                                    </button>
+                                    <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QGy-Dw-npB" customClass="MainButton">
+                                        <rect key="frame" x="254" y="54" width="60" height="80"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <state key="normal" title="校园招聘" image="home_icon_campus">
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="highlighted" image="home_icon_campus_focus"/>
+                                    </button>
+                                    <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qOn-Vo-dqi" customClass="MainButton">
+                                        <rect key="frame" x="426" y="54" width="60" height="80"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <state key="normal" title="职场资讯" image="home_icon_worknews">
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="highlighted" image="home_icon_worknews_focus"/>
+                                    </button>
+                                    <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gqi-Ef-XVj" customClass="MainButton">
+                                        <rect key="frame" x="82" y="228" width="60" height="80"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <state key="normal" title="企业粉丝团" image="home_icon_fans">
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="highlighted" image="home_icon_fans_focus"/>
+                                    </button>
+                                    <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="09E-aG-7jo" customClass="MainButton">
+                                        <rect key="frame" x="254" y="228" width="60" height="80"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="60" id="55M-7n-jLs"/>
+                                            <constraint firstAttribute="height" constant="80" id="LfR-7x-qLT"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <state key="normal" title="My 51Job" image="home_icon_my51job">
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="highlighted" image="home_icon_my51job_focus"/>
+                                    </button>
+                                    <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R4M-n9-Y3z" customClass="MainButton">
+                                        <rect key="frame" x="426" y="228" width="60" height="80"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <state key="normal" title="简历中心" image="home_icon_resumecenter">
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="highlighted" image="home_icon_resumecenter_focus"/>
+                                    </button>
+                                    <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VqD-aw-3ZF" customClass="MainButton">
+                                        <rect key="frame" x="82" y="402" width="60" height="80"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <state key="normal" title="薪酬查询" image="home_icon_salaryquery">
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="highlighted" image="home_icon_salaryquery_focus"/>
+                                    </button>
+                                    <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gCu-ed-KX4" customClass="MainButton">
+                                        <rect key="frame" x="254" y="402" width="60" height="80"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <state key="normal" title="申请记录" image="home_icon_jobapply">
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                    <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="an2-mq-uMy" customClass="MainButton">
+                                        <rect key="frame" x="426" y="402" width="60" height="80"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <state key="normal" title="更多" image="home_icon_themore">
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="highlighted" image="home_icon_themore_focus"/>
+                                        <connections>
+                                            <action selector="touchTheMoreBtn:" destination="ZkP-jw-kmf" eventType="touchUpInside" id="BWT-M6-KJa"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="an2-mq-uMy" firstAttribute="top" secondItem="VqD-aw-3ZF" secondAttribute="top" id="5RC-dg-deV"/>
+                                    <constraint firstItem="R4M-n9-Y3z" firstAttribute="width" secondItem="1W4-qz-R2e" secondAttribute="width" id="9kj-a6-D1i"/>
+                                    <constraint firstItem="an2-mq-uMy" firstAttribute="top" secondItem="gCu-ed-KX4" secondAttribute="top" id="A46-rR-XKZ"/>
+                                    <constraint firstItem="R4M-n9-Y3z" firstAttribute="width" secondItem="VqD-aw-3ZF" secondAttribute="width" id="Dw1-9W-FDu"/>
+                                    <constraint firstItem="R4M-n9-Y3z" firstAttribute="height" secondItem="QGy-Dw-npB" secondAttribute="height" id="J8c-uG-O4y"/>
+                                    <constraint firstItem="09E-aG-7jo" firstAttribute="top" secondItem="R4M-n9-Y3z" secondAttribute="top" id="KPo-EF-AIx"/>
+                                    <constraint firstAttribute="centerX" secondItem="09E-aG-7jo" secondAttribute="centerX" id="LPN-cX-m2X"/>
+                                    <constraint firstItem="1W4-qz-R2e" firstAttribute="leading" secondItem="VqD-aw-3ZF" secondAttribute="leading" id="NPF-3E-sOv"/>
+                                    <constraint firstItem="R4M-n9-Y3z" firstAttribute="width" secondItem="an2-mq-uMy" secondAttribute="width" id="NwU-xY-4go"/>
+                                    <constraint firstItem="R4M-n9-Y3z" firstAttribute="height" secondItem="gCu-ed-KX4" secondAttribute="height" id="Ofu-eg-6Gw"/>
+                                    <constraint firstItem="R4M-n9-Y3z" firstAttribute="width" secondItem="09E-aG-7jo" secondAttribute="width" id="Pex-XD-ial"/>
+                                    <constraint firstItem="Gqi-Ef-XVj" firstAttribute="trailing" secondItem="ThB-Yf-mwl" secondAttribute="centerX" multiplier="0.5" id="RZQ-vV-spr"/>
+                                    <constraint firstItem="1W4-qz-R2e" firstAttribute="top" secondItem="QGy-Dw-npB" secondAttribute="top" id="SOg-fO-GAB"/>
+                                    <constraint firstItem="R4M-n9-Y3z" firstAttribute="width" secondItem="Gqi-Ef-XVj" secondAttribute="width" id="T2R-Ci-fbM"/>
+                                    <constraint firstItem="1W4-qz-R2e" firstAttribute="top" secondItem="qOn-Vo-dqi" secondAttribute="top" id="YYP-6J-vDi"/>
+                                    <constraint firstItem="R4M-n9-Y3z" firstAttribute="width" secondItem="QGy-Dw-npB" secondAttribute="width" id="b4D-i5-rkd"/>
+                                    <constraint firstItem="09E-aG-7jo" firstAttribute="top" secondItem="Gqi-Ef-XVj" secondAttribute="top" id="dik-wf-Qxt"/>
+                                    <constraint firstItem="R4M-n9-Y3z" firstAttribute="leading" secondItem="an2-mq-uMy" secondAttribute="leading" id="ffa-UT-0b4"/>
+                                    <constraint firstItem="09E-aG-7jo" firstAttribute="leading" secondItem="QGy-Dw-npB" secondAttribute="leading" id="gVG-aq-nZq"/>
+                                    <constraint firstItem="R4M-n9-Y3z" firstAttribute="leading" secondItem="qOn-Vo-dqi" secondAttribute="leading" id="gkd-zu-CXK"/>
+                                    <constraint firstItem="1W4-qz-R2e" firstAttribute="leading" secondItem="Gqi-Ef-XVj" secondAttribute="leading" id="jGn-XJ-S1E"/>
+                                    <constraint firstItem="R4M-n9-Y3z" firstAttribute="height" secondItem="VqD-aw-3ZF" secondAttribute="height" id="lKu-gR-Dj6"/>
+                                    <constraint firstItem="R4M-n9-Y3z" firstAttribute="width" secondItem="gCu-ed-KX4" secondAttribute="width" id="pEj-bB-7IO"/>
+                                    <constraint firstItem="R4M-n9-Y3z" firstAttribute="leading" secondItem="ThB-Yf-mwl" secondAttribute="centerX" multiplier="1.5" id="rA3-V4-78I"/>
+                                    <constraint firstItem="R4M-n9-Y3z" firstAttribute="height" secondItem="1W4-qz-R2e" secondAttribute="height" id="rJ3-c2-8zP"/>
+                                    <constraint firstItem="gCu-ed-KX4" firstAttribute="top" secondItem="ThB-Yf-mwl" secondAttribute="centerY" multiplier="1.5" id="sDb-O0-Xu8"/>
+                                    <constraint firstItem="R4M-n9-Y3z" firstAttribute="height" secondItem="Gqi-Ef-XVj" secondAttribute="height" id="t5W-GH-3DL"/>
+                                    <constraint firstItem="R4M-n9-Y3z" firstAttribute="height" secondItem="09E-aG-7jo" secondAttribute="height" id="u8L-qc-ZwW"/>
+                                    <constraint firstAttribute="centerY" secondItem="09E-aG-7jo" secondAttribute="centerY" id="vTn-IN-lUB"/>
+                                    <constraint firstItem="R4M-n9-Y3z" firstAttribute="width" secondItem="qOn-Vo-dqi" secondAttribute="width" id="w0O-Uj-J4m"/>
+                                    <constraint firstItem="09E-aG-7jo" firstAttribute="leading" secondItem="gCu-ed-KX4" secondAttribute="leading" id="wPe-lF-wOV"/>
+                                    <constraint firstItem="R4M-n9-Y3z" firstAttribute="height" secondItem="qOn-Vo-dqi" secondAttribute="height" id="xeM-uh-V4f"/>
+                                    <constraint firstItem="R4M-n9-Y3z" firstAttribute="height" secondItem="an2-mq-uMy" secondAttribute="height" id="xeX-4o-J7n"/>
+                                    <constraint firstItem="QGy-Dw-npB" firstAttribute="bottom" secondItem="ThB-Yf-mwl" secondAttribute="centerY" multiplier="0.5" id="yZn-n3-h9X"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ThB-Yf-mwl" firstAttribute="top" secondItem="KTh-vo-gSh" secondAttribute="bottom" id="McD-b0-iZv"/>
+                            <constraint firstItem="ThB-Yf-mwl" firstAttribute="leading" secondItem="hcF-HD-UHV" secondAttribute="leadingMargin" id="ZEK-fi-BWS"/>
+                            <constraint firstItem="ThB-Yf-mwl" firstAttribute="trailing" secondItem="hcF-HD-UHV" secondAttribute="trailingMargin" id="dzt-Zl-yjw"/>
+                            <constraint firstItem="LLR-8G-2i4" firstAttribute="top" secondItem="ThB-Yf-mwl" secondAttribute="bottom" id="z2Y-0d-9vs"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="1Sy-n8-buU"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hhY-Eu-Rp4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-300" y="246"/>
+        </scene>
+        <!--Main Navigation View Controller-->
+        <scene sceneID="pk4-Kb-TX5">
+            <objects>
+                <navigationController id="8er-qQ-LZz" customClass="MainNavigationViewController" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="NQS-r1-IZB">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="ZkP-jw-kmf" kind="relationship" relationship="rootViewController" id="pgS-LF-dCF"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jdT-M8-owu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1121" y="246"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="home_icon_campus" width="60" height="60"/>
+        <image name="home_icon_campus_focus" width="60" height="60"/>
+        <image name="home_icon_fans" width="60" height="60"/>
+        <image name="home_icon_fans_focus" width="60" height="60"/>
+        <image name="home_icon_jobapply" width="60" height="60"/>
+        <image name="home_icon_jobsearch" width="60" height="60"/>
+        <image name="home_icon_jobsearch_focus" width="60" height="60"/>
+        <image name="home_icon_my51job" width="60" height="60"/>
+        <image name="home_icon_my51job_focus" width="60" height="60"/>
+        <image name="home_icon_resumecenter" width="60" height="60"/>
+        <image name="home_icon_resumecenter_focus" width="60" height="60"/>
+        <image name="home_icon_salaryquery" width="60" height="60"/>
+        <image name="home_icon_salaryquery_focus" width="60" height="60"/>
+        <image name="home_icon_themore" width="60" height="60"/>
+        <image name="home_icon_themore_focus" width="60" height="60"/>
+        <image name="home_icon_worknews" width="60" height="60"/>
+        <image name="home_icon_worknews_focus" width="60" height="60"/>
+    </resources>
+</document>
