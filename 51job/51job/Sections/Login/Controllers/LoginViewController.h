@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
+#define LOGIN_TITLE     @"登录"
+#define REGISTER_STRING @"注册"
+
 @interface LoginViewController : UIViewController
 
 @end

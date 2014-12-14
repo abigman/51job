@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
+#define SEARCH_TEXTFIELD_STRING @"请输入关键字"
+
 @interface MainViewController : UIViewController
 
 

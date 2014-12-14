@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C3712151A3D80BF00F043BF /* MainSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3712141A3D80BF00F043BF /* MainSearchBar.m */; };
+		4C8443E21A3CA4F400BB247D /* CustomBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8443DF1A3CA4F400BB247D /* CustomBarItem.m */; };
+		4C8443E31A3CA4F400BB247D /* UINavigationItem+CustomItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8443E11A3CA4F400BB247D /* UINavigationItem+CustomItem.m */; };
 		4CC430C91A3ACDD9006579C6 /* _1jobTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC430C81A3ACDD9006579C6 /* _1jobTests.m */; };
 		4CC430EB1A3AD26E006579C6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC430D41A3AD26E006579C6 /* AppDelegate.m */; };
 		4CC430EC1A3AD26E006579C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC430D51A3AD26E006579C6 /* main.m */; };
@@ -29,6 +32,8 @@
 		4CC431171A3B1837006579C6 /* TheMoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC431161A3B1837006579C6 /* TheMoreViewController.m */; };
 		4CC4311B1A3B216A006579C6 /* SystemConfigureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC4311A1A3B216A006579C6 /* SystemConfigureViewController.m */; };
 		4CC431211A3B41DE006579C6 /* ChangeSkinTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC431201A3B41DE006579C6 /* ChangeSkinTableViewController.m */; };
+		4CC431231A3B4B75006579C6 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CC431221A3B4B75006579C6 /* Login.storyboard */; };
+		4CC431291A3B4BE5006579C6 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC431281A3B4BE5006579C6 /* LoginViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +47,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4C3712131A3D80BF00F043BF /* MainSearchBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainSearchBar.h; sourceTree = "<group>"; };
+		4C3712141A3D80BF00F043BF /* MainSearchBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainSearchBar.m; sourceTree = "<group>"; };
+		4C8443DE1A3CA4F400BB247D /* CustomBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomBarItem.h; sourceTree = "<group>"; };
+		4C8443DF1A3CA4F400BB247D /* CustomBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomBarItem.m; sourceTree = "<group>"; };
+		4C8443E01A3CA4F400BB247D /* UINavigationItem+CustomItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationItem+CustomItem.h"; sourceTree = "<group>"; };
+		4C8443E11A3CA4F400BB247D /* UINavigationItem+CustomItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationItem+CustomItem.m"; sourceTree = "<group>"; };
 		4CC430A61A3ACDD9006579C6 /* 51job.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 51job.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CC430C21A3ACDD9006579C6 /* 51jobTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 51jobTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CC430C71A3ACDD9006579C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -75,6 +86,9 @@
 		4CC4311A1A3B216A006579C6 /* SystemConfigureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SystemConfigureViewController.m; sourceTree = "<group>"; };
 		4CC4311F1A3B41DE006579C6 /* ChangeSkinTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChangeSkinTableViewController.h; sourceTree = "<group>"; };
 		4CC431201A3B41DE006579C6 /* ChangeSkinTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChangeSkinTableViewController.m; sourceTree = "<group>"; };
+		4CC431221A3B4B75006579C6 /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		4CC431271A3B4BE5006579C6 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		4CC431281A3B4BE5006579C6 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +109,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4C8443DD1A3CA4F400BB247D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4C8443DE1A3CA4F400BB247D /* CustomBarItem.h */,
+				4C8443DF1A3CA4F400BB247D /* CustomBarItem.m */,
+				4C8443E01A3CA4F400BB247D /* UINavigationItem+CustomItem.h */,
+				4C8443E11A3CA4F400BB247D /* UINavigationItem+CustomItem.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		4CC4309D1A3ACDD9006579C6 = {
 			isa = PBXGroup;
 			children = (
@@ -157,6 +182,7 @@
 		4CC430D61A3AD26E006579C6 /* General */ = {
 			isa = PBXGroup;
 			children = (
+				4C8443DD1A3CA4F400BB247D /* Views */,
 			);
 			path = General;
 			sourceTree = "<group>";
@@ -190,6 +216,7 @@
 		4CC430E21A3AD26E006579C6 /* Sections */ = {
 			isa = PBXGroup;
 			children = (
+				4CC431241A3B4BCE006579C6 /* Login */,
 				4CC431111A3B1804006579C6 /* TheMore */,
 				4CC430E31A3AD26E006579C6 /* Launch */,
 				4CC430E41A3AD26E006579C6 /* Main */,
@@ -237,6 +264,8 @@
 			children = (
 				4CC430F91A3AEBE5006579C6 /* MainButton.h */,
 				4CC430FA1A3AEBE5006579C6 /* MainButton.m */,
+				4C3712131A3D80BF00F043BF /* MainSearchBar.h */,
+				4C3712141A3D80BF00F043BF /* MainSearchBar.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -298,8 +327,34 @@
 				4CC4310B1A3B1733006579C6 /* SalaryQuery.storyboard */,
 				4CC4310D1A3B1745006579C6 /* TheMore.storyboard */,
 				4CC4310F1A3B175D006579C6 /* WorkNews.storyboard */,
+				4CC431221A3B4B75006579C6 /* Login.storyboard */,
 			);
 			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		4CC431241A3B4BCE006579C6 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				4CC431251A3B4BCE006579C6 /* Controllers */,
+				4CC431261A3B4BCE006579C6 /* Views */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		4CC431251A3B4BCE006579C6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4CC431271A3B4BE5006579C6 /* LoginViewController.h */,
+				4CC431281A3B4BE5006579C6 /* LoginViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4CC431261A3B4BCE006579C6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -394,6 +449,7 @@
 				4CC4310E1A3B1745006579C6 /* TheMore.storyboard in Resources */,
 				4CC431101A3B175D006579C6 /* WorkNews.storyboard in Resources */,
 				4CC4310A1A3B1721006579C6 /* ResumeCenter.storyboard in Resources */,
+				4CC431231A3B4B75006579C6 /* Login.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,10 +471,14 @@
 				4CC430FB1A3AEBE5006579C6 /* MainButton.m in Sources */,
 				4CC430EB1A3AD26E006579C6 /* AppDelegate.m in Sources */,
 				4CC430ED1A3AD26E006579C6 /* _1job.xcdatamodeld in Sources */,
+				4CC431291A3B4BE5006579C6 /* LoginViewController.m in Sources */,
 				4CC431171A3B1837006579C6 /* TheMoreViewController.m in Sources */,
+				4C8443E31A3CA4F400BB247D /* UINavigationItem+CustomItem.m in Sources */,
 				4CC431211A3B41DE006579C6 /* ChangeSkinTableViewController.m in Sources */,
 				4CC430EC1A3AD26E006579C6 /* main.m in Sources */,
 				4CC430F21A3AD26E006579C6 /* MainViewController.m in Sources */,
+				4C3712151A3D80BF00F043BF /* MainSearchBar.m in Sources */,
+				4C8443E21A3CA4F400BB247D /* CustomBarItem.m in Sources */,
 				4CC430FE1A3B13D3006579C6 /* MainNavigationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -610,6 +670,7 @@
 				4CC430CE1A3ACDD9006579C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4CC430CF1A3ACDD9006579C6 /* Build configuration list for PBXNativeTarget "51jobTests" */ = {
 			isa = XCConfigurationList;
@@ -618,6 +679,7 @@
 				4CC430D11A3ACDD9006579C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

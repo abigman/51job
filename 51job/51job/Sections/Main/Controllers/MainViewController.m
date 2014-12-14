@@ -9,6 +9,8 @@
 #import "MainViewController.h"
 #import "MainButton.h"
 #import "TheMoreViewController.h"
+#import "UINavigationItem+CustomItem.h"
+#import "MainSearchBar.h"
 
 #define TheMoreTablViewController @"TheMoreTablViewController"
 
@@ -20,6 +22,15 @@
 
 - (void)viewDidLoad {
 	[super viewDidLoad];
+
+	MainSearchBar *searchBar = [[MainSearchBar alloc] initWithFrame:CGRectMake(0, 0, 120, 28)];
+	searchBar.searchBarStyle = UISearchBarStyleMinimal;
+	searchBar.placeholder = SEARCH_TEXTFIELD_STRING;
+	[self.navigationItem setItemWithCustomView:searchBar itemType:CustomBarItemTypeCenter];
+}
+
+- (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event {
+	[self.navigationController.view endEditing:YES];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -30,12 +41,6 @@
 
 - (IBAction)touchTheMoreBtn:(MainButton *)sender {
 	UIViewController *dest = [[UIStoryboard storyboardWithName:TheMore bundle:nil] instantiateInitialViewController];
-//	UIStoryboardSegue *segue = [UIStoryboardSegue segueWithIdentifier:TheMoreTablViewController source:self destination:dest performHandler:^{
-//		NSLog(@"touchTheMoreBtn -> performHandler");
-//	}];
-//	[self.navigationController prepareForSegue:segue sender:sender];
-//	[self.view.superview addSubview:dest.view];
-//	[self.view removeFromSuperview];
 	
 	//TODO: 返回键的文字修改
 	

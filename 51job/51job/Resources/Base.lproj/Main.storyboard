@@ -22,7 +22,7 @@
                                 <rect key="frame" x="16" y="64" width="568" height="536"/>
                                 <subviews>
                                     <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1W4-qz-R2e" customClass="MainButton">
-                                        <rect key="frame" x="82" y="54" width="60" height="80"/>
+                                        <rect key="frame" x="82" y="74" width="60" height="80"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                         <state key="normal" title="职位搜索" image="home_icon_jobsearch">
                                             <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -31,7 +31,7 @@
                                         <state key="highlighted" image="home_icon_jobsearch_focus"/>
                                     </button>
                                     <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QGy-Dw-npB" customClass="MainButton">
-                                        <rect key="frame" x="254" y="54" width="60" height="80"/>
+                                        <rect key="frame" x="254" y="74" width="60" height="80"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                         <state key="normal" title="校园招聘" image="home_icon_campus">
                                             <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -40,7 +40,7 @@
                                         <state key="highlighted" image="home_icon_campus_focus"/>
                                     </button>
                                     <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qOn-Vo-dqi" customClass="MainButton">
-                                        <rect key="frame" x="426" y="54" width="60" height="80"/>
+                                        <rect key="frame" x="426" y="74" width="60" height="80"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                         <state key="normal" title="职场资讯" image="home_icon_worknews">
                                             <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -80,7 +80,7 @@
                                         <state key="highlighted" image="home_icon_resumecenter_focus"/>
                                     </button>
                                     <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VqD-aw-3ZF" customClass="MainButton">
-                                        <rect key="frame" x="82" y="402" width="60" height="80"/>
+                                        <rect key="frame" x="82" y="382" width="60" height="80"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                         <state key="normal" title="薪酬查询" image="home_icon_salaryquery">
                                             <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -89,7 +89,7 @@
                                         <state key="highlighted" image="home_icon_salaryquery_focus"/>
                                     </button>
                                     <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gCu-ed-KX4" customClass="MainButton">
-                                        <rect key="frame" x="254" y="402" width="60" height="80"/>
+                                        <rect key="frame" x="254" y="382" width="60" height="80"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                         <state key="normal" title="申请记录" image="home_icon_jobapply">
                                             <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -97,7 +97,7 @@
                                         </state>
                                     </button>
                                     <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="an2-mq-uMy" customClass="MainButton">
-                                        <rect key="frame" x="426" y="402" width="60" height="80"/>
+                                        <rect key="frame" x="426" y="382" width="60" height="80"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                         <state key="normal" title="更多" image="home_icon_themore">
                                             <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -109,7 +109,6 @@
                                         </connections>
                                     </button>
                                 </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstItem="an2-mq-uMy" firstAttribute="top" secondItem="VqD-aw-3ZF" secondAttribute="top" id="5RC-dg-deV"/>
                                     <constraint firstItem="R4M-n9-Y3z" firstAttribute="width" secondItem="1W4-qz-R2e" secondAttribute="width" id="9kj-a6-D1i"/>
@@ -136,7 +135,7 @@
                                     <constraint firstItem="R4M-n9-Y3z" firstAttribute="width" secondItem="gCu-ed-KX4" secondAttribute="width" id="pEj-bB-7IO"/>
                                     <constraint firstItem="R4M-n9-Y3z" firstAttribute="leading" secondItem="ThB-Yf-mwl" secondAttribute="centerX" multiplier="1.5" id="rA3-V4-78I"/>
                                     <constraint firstItem="R4M-n9-Y3z" firstAttribute="height" secondItem="1W4-qz-R2e" secondAttribute="height" id="rJ3-c2-8zP"/>
-                                    <constraint firstItem="gCu-ed-KX4" firstAttribute="top" secondItem="ThB-Yf-mwl" secondAttribute="centerY" multiplier="1.5" id="sDb-O0-Xu8"/>
+                                    <constraint firstItem="gCu-ed-KX4" firstAttribute="top" secondItem="ThB-Yf-mwl" secondAttribute="centerY" multiplier="1.5" constant="-20" id="sDb-O0-Xu8"/>
                                     <constraint firstItem="R4M-n9-Y3z" firstAttribute="height" secondItem="Gqi-Ef-XVj" secondAttribute="height" id="t5W-GH-3DL"/>
                                     <constraint firstItem="R4M-n9-Y3z" firstAttribute="height" secondItem="09E-aG-7jo" secondAttribute="height" id="u8L-qc-ZwW"/>
                                     <constraint firstAttribute="centerY" secondItem="09E-aG-7jo" secondAttribute="centerY" id="vTn-IN-lUB"/>
@@ -144,7 +143,7 @@
                                     <constraint firstItem="09E-aG-7jo" firstAttribute="leading" secondItem="gCu-ed-KX4" secondAttribute="leading" id="wPe-lF-wOV"/>
                                     <constraint firstItem="R4M-n9-Y3z" firstAttribute="height" secondItem="qOn-Vo-dqi" secondAttribute="height" id="xeM-uh-V4f"/>
                                     <constraint firstItem="R4M-n9-Y3z" firstAttribute="height" secondItem="an2-mq-uMy" secondAttribute="height" id="xeX-4o-J7n"/>
-                                    <constraint firstItem="QGy-Dw-npB" firstAttribute="bottom" secondItem="ThB-Yf-mwl" secondAttribute="centerY" multiplier="0.5" id="yZn-n3-h9X"/>
+                                    <constraint firstItem="QGy-Dw-npB" firstAttribute="bottom" secondItem="ThB-Yf-mwl" secondAttribute="centerY" multiplier="0.5" constant="20" id="yZn-n3-h9X"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -166,10 +165,13 @@
         <scene sceneID="pk4-Kb-TX5">
             <objects>
                 <navigationController id="8er-qQ-LZz" customClass="MainNavigationViewController" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="NQS-r1-IZB">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" backIndicatorImage="common_button_default" id="NQS-r1-IZB">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="dQ9-zA-KEv">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </toolbar>
                     <connections>
                         <segue destination="ZkP-jw-kmf" kind="relationship" relationship="rootViewController" id="pgS-LF-dCF"/>
                     </connections>
@@ -180,6 +182,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="common_button_default" width="20" height="44"/>
         <image name="home_icon_campus" width="60" height="60"/>
         <image name="home_icon_campus_focus" width="60" height="60"/>
         <image name="home_icon_fans" width="60" height="60"/>
