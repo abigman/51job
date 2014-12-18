@@ -29,6 +29,9 @@
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <state key="highlighted" image="home_icon_jobsearch_focus"/>
+                                        <connections>
+                                            <action selector="touchJobSearchBtn:" destination="ZkP-jw-kmf" eventType="touchUpInside" id="OBl-WC-xET"/>
+                                        </connections>
                                     </button>
                                     <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QGy-Dw-npB" customClass="MainButton">
                                         <rect key="frame" x="254" y="74" width="60" height="80"/>

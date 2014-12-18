@@ -1,7 +1,60 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="gfD-mh-pYX">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
-    <scenes/>
+    <scenes>
+        <!--Job Search View Controller-->
+        <scene sceneID="jcO-EP-LdQ">
+            <objects>
+                <viewController id="gfD-mh-pYX" customClass="JobSearchViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="nle-mJ-cP4"/>
+                        <viewControllerLayoutGuide type="bottom" id="DqG-aY-RLy"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="gU1-Mb-ypT">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <searchBar contentMode="redraw" placeholder="请输入关键字" translatesAutoresizingMaskIntoConstraints="NO" id="1zq-GZ-kJ5">
+                                <rect key="frame" x="0.0" y="20" width="600" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="qud-gT-qt6"/>
+                                </constraints>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="gfD-mh-pYX" id="HSt-bV-Xty"/>
+                                </connections>
+                            </searchBar>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="8hu-rO-Lin">
+                                <rect key="frame" x="0.0" y="108" width="600" height="492"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="gfD-mh-pYX" id="iYm-2h-fIb"/>
+                                    <outlet property="delegate" destination="gfD-mh-pYX" id="Wbh-QM-DiE"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="1zq-GZ-kJ5" firstAttribute="leading" secondItem="gU1-Mb-ypT" secondAttribute="leadingMargin" constant="-16" id="5rp-PE-qdI"/>
+                            <constraint firstItem="8hu-rO-Lin" firstAttribute="leading" secondItem="gU1-Mb-ypT" secondAttribute="leadingMargin" constant="-16" id="6RZ-ie-Aku"/>
+                            <constraint firstItem="1zq-GZ-kJ5" firstAttribute="top" secondItem="nle-mJ-cP4" secondAttribute="bottom" id="CVV-h8-lWl"/>
+                            <constraint firstItem="8hu-rO-Lin" firstAttribute="top" secondItem="1zq-GZ-kJ5" secondAttribute="bottom" id="Gte-ou-5gE"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="1zq-GZ-kJ5" secondAttribute="trailing" constant="-16" id="LSE-0g-KGU"/>
+                            <constraint firstItem="DqG-aY-RLy" firstAttribute="top" secondItem="8hu-rO-Lin" secondAttribute="bottom" id="Vml-gU-tmH"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="8hu-rO-Lin" secondAttribute="trailing" constant="-16" id="z3b-Qo-Sel"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="searchBar" destination="1zq-GZ-kJ5" id="qEN-KN-n0v"/>
+                        <outlet property="tableView" destination="8hu-rO-Lin" id="tty-kB-WBU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="djR-UT-2p9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1153" y="-67"/>
+        </scene>
+    </scenes>
 </document>

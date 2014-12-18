@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		4C3712151A3D80BF00F043BF /* MainSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3712141A3D80BF00F043BF /* MainSearchBar.m */; };
+		4C37121C1A3D9BA800F043BF /* JobSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C37121B1A3D9BA800F043BF /* JobSearchViewController.m */; };
+		4C37121F1A3DB61800F043BF /* Search.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C37121E1A3DB61800F043BF /* Search.storyboard */; };
+		4C3712261A3DB8E800F043BF /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3712251A3DB8E800F043BF /* SearchViewController.m */; };
+		4C4C1F5D1A42797900B4C8B4 /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4C1F5C1A42797900B4C8B4 /* BaseNavigationController.m */; };
 		4C8443E21A3CA4F400BB247D /* CustomBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8443DF1A3CA4F400BB247D /* CustomBarItem.m */; };
 		4C8443E31A3CA4F400BB247D /* UINavigationItem+CustomItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8443E11A3CA4F400BB247D /* UINavigationItem+CustomItem.m */; };
 		4CC430C91A3ACDD9006579C6 /* _1jobTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC430C81A3ACDD9006579C6 /* _1jobTests.m */; };
@@ -49,6 +53,13 @@
 /* Begin PBXFileReference section */
 		4C3712131A3D80BF00F043BF /* MainSearchBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainSearchBar.h; sourceTree = "<group>"; };
 		4C3712141A3D80BF00F043BF /* MainSearchBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainSearchBar.m; sourceTree = "<group>"; };
+		4C37121A1A3D9BA800F043BF /* JobSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JobSearchViewController.h; sourceTree = "<group>"; };
+		4C37121B1A3D9BA800F043BF /* JobSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JobSearchViewController.m; sourceTree = "<group>"; };
+		4C37121E1A3DB61800F043BF /* Search.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Search.storyboard; sourceTree = "<group>"; };
+		4C3712241A3DB8E800F043BF /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		4C3712251A3DB8E800F043BF /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		4C4C1F5B1A42797900B4C8B4 /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
+		4C4C1F5C1A42797900B4C8B4 /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
 		4C8443DE1A3CA4F400BB247D /* CustomBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomBarItem.h; sourceTree = "<group>"; };
 		4C8443DF1A3CA4F400BB247D /* CustomBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomBarItem.m; sourceTree = "<group>"; };
 		4C8443E01A3CA4F400BB247D /* UINavigationItem+CustomItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationItem+CustomItem.h"; sourceTree = "<group>"; };
@@ -109,6 +120,88 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4C3712161A3D9B8A00F043BF /* JobSearch */ = {
+			isa = PBXGroup;
+			children = (
+				4C3712171A3D9B8A00F043BF /* Controllers */,
+				4C3712181A3D9B8A00F043BF /* Models */,
+				4C3712191A3D9B8A00F043BF /* Views */,
+			);
+			path = JobSearch;
+			sourceTree = "<group>";
+		};
+		4C3712171A3D9B8A00F043BF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4C37121A1A3D9BA800F043BF /* JobSearchViewController.h */,
+				4C37121B1A3D9BA800F043BF /* JobSearchViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4C3712181A3D9B8A00F043BF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4C3712191A3D9B8A00F043BF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4C37121D1A3D9E5B00F043BF /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
+		4C3712201A3DB71C00F043BF /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				4C3712211A3DB71C00F043BF /* Controllers */,
+				4C3712221A3DB71C00F043BF /* Models */,
+				4C3712231A3DB71C00F043BF /* Views */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		4C3712211A3DB71C00F043BF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4C3712241A3DB8E800F043BF /* SearchViewController.h */,
+				4C3712251A3DB8E800F043BF /* SearchViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4C3712221A3DB71C00F043BF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4C3712231A3DB71C00F043BF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4C4C1F5A1A42793B00B4C8B4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4C4C1F5B1A42797900B4C8B4 /* BaseNavigationController.h */,
+				4C4C1F5C1A42797900B4C8B4 /* BaseNavigationController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		4C8443DD1A3CA4F400BB247D /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -141,6 +234,7 @@
 		4CC430A81A3ACDD9006579C6 /* 51job */ = {
 			isa = PBXGroup;
 			children = (
+				4C37121D1A3D9E5B00F043BF /* Macro */,
 				4CC430D21A3AD26E006579C6 /* AppDelegate */,
 				4CC430D61A3AD26E006579C6 /* General */,
 				4CC430D71A3AD26E006579C6 /* Helpers */,
@@ -182,6 +276,7 @@
 		4CC430D61A3AD26E006579C6 /* General */ = {
 			isa = PBXGroup;
 			children = (
+				4C4C1F5A1A42793B00B4C8B4 /* Controllers */,
 				4C8443DD1A3CA4F400BB247D /* Views */,
 			);
 			path = General;
@@ -216,6 +311,8 @@
 		4CC430E21A3AD26E006579C6 /* Sections */ = {
 			isa = PBXGroup;
 			children = (
+				4C3712201A3DB71C00F043BF /* Search */,
+				4C3712161A3D9B8A00F043BF /* JobSearch */,
 				4CC431241A3B4BCE006579C6 /* Login */,
 				4CC431111A3B1804006579C6 /* TheMore */,
 				4CC430E31A3AD26E006579C6 /* Launch */,
@@ -328,6 +425,7 @@
 				4CC4310D1A3B1745006579C6 /* TheMore.storyboard */,
 				4CC4310F1A3B175D006579C6 /* WorkNews.storyboard */,
 				4CC431221A3B4B75006579C6 /* Login.storyboard */,
+				4C37121E1A3DB61800F043BF /* Search.storyboard */,
 			);
 			name = Storyboards;
 			sourceTree = "<group>";
@@ -441,6 +539,7 @@
 				4CC431041A3B16E1006579C6 /* Fans.storyboard in Resources */,
 				4CC431021A3B16BC006579C6 /* Campus.storyboard in Resources */,
 				4CC431001A3B16A6006579C6 /* JobSearch.storyboard in Resources */,
+				4C37121F1A3DB61800F043BF /* Search.storyboard in Resources */,
 				4CC430F31A3AD605006579C6 /* LaunchScreen.xib in Resources */,
 				4CC430F41A3AD605006579C6 /* Main.storyboard in Resources */,
 				4CC430F51A3AD605006579C6 /* Images.xcassets in Resources */,
@@ -471,7 +570,10 @@
 				4CC430FB1A3AEBE5006579C6 /* MainButton.m in Sources */,
 				4CC430EB1A3AD26E006579C6 /* AppDelegate.m in Sources */,
 				4CC430ED1A3AD26E006579C6 /* _1job.xcdatamodeld in Sources */,
+				4C4C1F5D1A42797900B4C8B4 /* BaseNavigationController.m in Sources */,
+				4C37121C1A3D9BA800F043BF /* JobSearchViewController.m in Sources */,
 				4CC431291A3B4BE5006579C6 /* LoginViewController.m in Sources */,
+				4C3712261A3DB8E800F043BF /* SearchViewController.m in Sources */,
 				4CC431171A3B1837006579C6 /* TheMoreViewController.m in Sources */,
 				4C8443E31A3CA4F400BB247D /* UINavigationItem+CustomItem.m in Sources */,
 				4CC431211A3B41DE006579C6 /* ChangeSkinTableViewController.m in Sources */,
