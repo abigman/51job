@@ -11,7 +11,7 @@
 		4C37121C1A3D9BA800F043BF /* JobSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C37121B1A3D9BA800F043BF /* JobSearchViewController.m */; };
 		4C37121F1A3DB61800F043BF /* Search.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C37121E1A3DB61800F043BF /* Search.storyboard */; };
 		4C3712261A3DB8E800F043BF /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3712251A3DB8E800F043BF /* SearchViewController.m */; };
-		4C4C1F5D1A42797900B4C8B4 /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4C1F5C1A42797900B4C8B4 /* BaseNavigationController.m */; };
+		4C4C1F5D1A42797900B4C8B4 /* BaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C4C1F5C1A42797900B4C8B4 /* BaseTableViewController.m */; };
 		4C8443E21A3CA4F400BB247D /* CustomBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8443DF1A3CA4F400BB247D /* CustomBarItem.m */; };
 		4C8443E31A3CA4F400BB247D /* UINavigationItem+CustomItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8443E11A3CA4F400BB247D /* UINavigationItem+CustomItem.m */; };
 		4CC430C91A3ACDD9006579C6 /* _1jobTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC430C81A3ACDD9006579C6 /* _1jobTests.m */; };
@@ -58,8 +58,8 @@
 		4C37121E1A3DB61800F043BF /* Search.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Search.storyboard; sourceTree = "<group>"; };
 		4C3712241A3DB8E800F043BF /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
 		4C3712251A3DB8E800F043BF /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
-		4C4C1F5B1A42797900B4C8B4 /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
-		4C4C1F5C1A42797900B4C8B4 /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
+		4C4C1F5B1A42797900B4C8B4 /* BaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewController.h; sourceTree = "<group>"; };
+		4C4C1F5C1A42797900B4C8B4 /* BaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewController.m; sourceTree = "<group>"; };
 		4C8443DE1A3CA4F400BB247D /* CustomBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomBarItem.h; sourceTree = "<group>"; };
 		4C8443DF1A3CA4F400BB247D /* CustomBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomBarItem.m; sourceTree = "<group>"; };
 		4C8443E01A3CA4F400BB247D /* UINavigationItem+CustomItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationItem+CustomItem.h"; sourceTree = "<group>"; };
@@ -196,8 +196,8 @@
 		4C4C1F5A1A42793B00B4C8B4 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				4C4C1F5B1A42797900B4C8B4 /* BaseNavigationController.h */,
-				4C4C1F5C1A42797900B4C8B4 /* BaseNavigationController.m */,
+				4C4C1F5B1A42797900B4C8B4 /* BaseTableViewController.h */,
+				4C4C1F5C1A42797900B4C8B4 /* BaseTableViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -570,7 +570,7 @@
 				4CC430FB1A3AEBE5006579C6 /* MainButton.m in Sources */,
 				4CC430EB1A3AD26E006579C6 /* AppDelegate.m in Sources */,
 				4CC430ED1A3AD26E006579C6 /* _1job.xcdatamodeld in Sources */,
-				4C4C1F5D1A42797900B4C8B4 /* BaseNavigationController.m in Sources */,
+				4C4C1F5D1A42797900B4C8B4 /* BaseTableViewController.m in Sources */,
 				4C37121C1A3D9BA800F043BF /* JobSearchViewController.m in Sources */,
 				4CC431291A3B4BE5006579C6 /* LoginViewController.m in Sources */,
 				4C3712261A3DB8E800F043BF /* SearchViewController.m in Sources */,

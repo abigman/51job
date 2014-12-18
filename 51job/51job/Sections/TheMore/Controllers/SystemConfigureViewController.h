@@ -7,10 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BaseTableViewController.h"
 
 #define CLEAN_CACHE @"CLEAN_CACHE"
 #define CLEAN_CACHE_TAG 20
 
-@interface SystemConfigureViewController : UITableViewController
+@interface SystemConfigureViewController : BaseTableViewController
 
 @end

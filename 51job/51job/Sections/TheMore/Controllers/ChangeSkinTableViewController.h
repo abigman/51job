@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BaseTableViewController.h"
 
 #define CHANGE_SKIN_TITLE  @"更换皮肤"
 
@@ -15,6 +16,6 @@
 #define LOCAL_SKIN_STRING  @"本地皮肤"
 
 
-@interface ChangeSkinTableViewController : UITableViewController
+@interface ChangeSkinTableViewController : BaseTableViewController
 
 @end

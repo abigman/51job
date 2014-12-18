@@ -7,11 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BaseTableViewController.h"
 
 #define TheMore                   @"TheMore"
 #define TheMoreTitle              @"更多"
 #define TheMoreTablViewController @"TheMoreTablViewController"
 
-@interface TheMoreViewController : UITableViewController
+@interface TheMoreViewController : BaseTableViewController
 
 @end
